@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohamed Kourani's Portfolio Website">
+    <meta name="keywords" content="portfolio, programming, web development, developer">
+    <meta name="author" content="Mohamed Kourani">
+    
+    <title>Mohamad Arouni | Portfolio</title>
+    
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/flip-cards.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Particles container for the entire page -->
+  <div id="particles-js"></div>
+
+  <!-- Header / Navigation (anchors only; no external pages) -->
+  <header>
+    <div class="logo">
+      <a href="#top">
+        <img src="images/about/me/mylogo.png" alt="MA Logo" />
+      </a>
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero-about" class="nav-link" data-text="Home">Home</a></li>
+        <li><a href="#projects" class="nav-link" data-text="Projects">Projects</a></li>
+        <li><a href="#skills" class="nav-link" data-text="Skills">Skills</a></li>
+        <li><a href="#contact" class="nav-link" data-text="Contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="theme-switch">
+      <button id="dark-mode-toggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-sun sun"></i>
+        <i class="fas fa-moon moon"></i>
+      </button>
+    </div>
+
+    <div class="menu-btn">
+      <div class="menu-btn__burger"></div>
+    </div>
+
+    <div class="mobile-nav">
+      <ul>
+        <li><a href="#hero-about">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#latest-blogs">Blog</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="page-transition"></div>
+
+  <main id="top">
+
+    <!-- Combined Hero & About Section -->
+    <section id="hero-about" class="hero-about-section">
+      <!-- Quote at the top -->
+
+      <!-- Main Content -->
+      <div class="hero-about-container">
+        <!-- Left Side: Name, Profile, Description and Buttons -->
+        <div class="hero-about-left">
+          <!-- Profile Image -->
+          <div class="profile-container">
+            <img src="images/about/me/me.png" alt="Mohamad Arouni" />
+          </div>
+
+    
+          <h2 class="gradient-text">Mohamad Arouni</h2>
+          <!-- Description & Buttons -->
+          <div class="hero-description-container">
+            <p class="hero-description">Aspiring full-stack / Software Engineer</p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-secondary">View Projects</a>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- Right Side with Services and Languages stacked -->
+        <div class="hero-about-right">
+          <!-- Services Card -->
+          <div class="about-card">
+            <div class="card-heading">
+              <h3>Services</h3>
+            </div>
+            <ul class="services-list">
+              <li><span class="service-icon"><i class="fas fa-code"></i></span> Full-Stack Web Development</li>
+              <li><span class="service-icon"><i class="fas fa-chart-line"></i></span> Data Analysis & Visualization</li>
+              <li><span class="service-icon"><i class="fas fa-cogs"></i></span> Software Engineering</li>
+            </ul>
+          </div>
+
+          <!-- Languages Card -->
+          <div class="about-card">
+            <div class="card-heading">
+              <h3>Languages</h3>
+            </div>
+            <div class="languages-container">
+              <div class="language">
+                <span>English</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 100%"></div>
+                </div>
+              </div>
+              <div class="language">
+                <span>French</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 100%"></div>
+                </div>
+              </div>
+              <div class="language">
+                <span>Arabic</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 100%"></div>
+                </div>
+              </div>
+              <div class="language">
+                <span>Spanish</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 60%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+      <div class="section-header">
+        <h2 class="section-title">Education & Experience</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-img">
+              <img src="images/about/work/university.png" alt="Queen Mary University" />
+            </div>
+            <h3>Queen Mary University of London</h3>
+            <span class="timeline-date">2024 - Present</span>
+            <div class="timeline-description">
+              <p><strong>Bachelor of Computer Science with Industrial Placement</strong></p>
+              <p>Currently in my <strong>1st year</strong>, expected to graduate with <strong>First-Class Honours</strong>.</p>
+              <div class="timeline-details">
+                <h4>Relevant Courses:</h4>
+                <ul>
+                  <li>Procedural & Object-Oriented Programming</li>
+                  <li>Systems & Networks (Computing Context)</li>
+                  <li>Software Engineering & System Architecture</li>
+                </ul>
+              </div>
+            </div>
+            <button class="timeline-toggle">Read More</button>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-img">
+              <div class="project-slider">
+                <img src="images/about/projects/website_before.png" class="slider-img active" alt="Website Before" />
+                <img src="images/about/projects/website_after.png" class="slider-img" alt="Website After" />
+                <div class="slider-controls">
+                  <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                  <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+            <h3>Web Developer</h3>
+            <span class="timeline-date">January 2025 - Present</span>
+            <div class="timeline-description">
+              <p><strong>Professional Experience</strong></p>
+              <p>Worked as a freelance web developer for local businesses, focusing on improving their online presence and user experience.</p>
+              <div class="timeline-details">
+                <ul>
+                  <li><strong>Site Redesign:</strong> Transformed outdated websites into modern, responsive platforms (see before/after).</li>
+                  <li><strong>Performance Optimization:</strong> Improved page load times by 60% through image optimization and code refactoring.</li>
+                  <li><strong>SEO Enhancement:</strong> Improved errors in navigational links and used metadata strategies to improve search rankings.</li>
+                  <li><strong>Mobile Responsiveness:</strong> Created fluid layouts that work seamlessly across all device sizes.</li>
+                </ul>
+              </div>
+            </div>
+            <button class="timeline-toggle">Read More</button>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-img">
+              <img src="images/about/work/school.webp" alt="Lycée International" />
+            </div>
+            <h3>Lycée International De Londres Winston Churchill</h3>
+            <span class="timeline-date">Graduated: June 2024</span>
+            <div class="timeline-description">
+              <p>Graduated with <strong>Highest Honours with Committee Praise</strong> in the French Baccalaureate.</p>
+              <div class="timeline-details">
+                <ul>
+                  <li>A* in Mathematics</li>
+                  <li>A* in Physics & Chemistry</li>
+                  <li>A* in Computer Science</li>
+                  <li>A* in Further Mathematics</li>
+                </ul>
+              </div>
+            </div>
+            <button class="timeline-toggle">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="game">Game Development</button>
+        <button class="filter-btn" data-filter="data">Data Analysis</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Tetris Project -->
+        <div class="project-card" data-category="game">
+          <div class="project-img">
+            <img src="images/about/projects/tetris.png" alt="Tetris" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/MoArouni/Tetris-project" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" class="project-details-btn"><i class="fas fa-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Tetris Enhancement</h3>
+            <p class="project-category">Open Source Project</p>
+            <div class="project-description">
+              <p>Transformed a basic Tetris implementation by introducing a feature-rich menu system and refining gameplay functionalities.</p>
+              <ul>
+                <li>Designed and developed an intuitive UX/UI to enhance player experience.</li>
+                <li>Improved game functionalities using <strong>Object-Oriented Programming</strong> principles for better code organization.</li>
+                <li>Added a comprehensive menu feature with options, settings, and game controls.</li>
+                <li>Enhanced visual aesthetics and gameplay responsiveness for a more engaging experience.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Horse Racing Simulator -->
+        <div class="project-card" data-category="game">
+          <div class="project-img">
+            <img src="images/about/projects/horse_racing.png" alt="Horse Racing Simulator" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/MoArouni/HorseRaceSimulator" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" class="project-details-btn"><i class="fas fa-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Horse Race Simulator with GUI (Swing)</h3>
+            <p class="project-category">March 2025 - April 2025</p>
+            <div class="project-description">
+              <p>Developed a horse racing simulator using OOP principles in Java, incorporating encapsulation to protect data.</p>
+              <ul>
+                <li>Implemented multiple game modes to enhance user experience and gameplay variety.</li>
+                <li>Created a feature-rich GUI using Java Swing for intuitive user interaction.</li>
+                <li>Developed complex race simulation algorithms and betting systems.</li>
+                <li>Built real-time race visualization with dynamic updates and animations.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Tools Project -->
+        <div class="project-card" data-category="web data">
+          <div class="project-img">
+            <img src="images/about/projects/mylogo.png" alt="Data-tools" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/MoArouni/MoMetriX-DataHub" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" class="project-details-btn"><i class="fas fa-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">MoMetriX Datahub</h3>
+            <p class="project-category">December 2024 - Present</p>
+            <div class="project-description">
+              <p>A modular Flask app designed for businesses to define, manage, and analyze their own data. Key features include RBAC, dynamic form generation and secured authentication using JWT, all powered by SQLAlchemy.</p>
+              <ul>
+                <li>Admins can manage platform access, invite moderators, and customize permissions for collaboration.</li>
+                <li>The app uses JSON for data transfer between the frontend and backend.</li>
+                <li>Deployed on Render with a secure, testable backend, using SQLite for local testing and PostgreSQL for production.</li>
+                <li>Currently working on the data analysis tools, and the feature for inviting moderators as an admin.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Client Portfolio Website -->
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <img src="images/about/projects/Client_Portfolio.png" alt="Client Portfolio" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/MoArouni/Client_Portfolio" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" class="project-details-btn"><i class="fas fa-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Client Portfolio Website</h3>
+            <p class="project-category">May 2025 - Present</p>
+            <div class="project-description">
+              <p>Built a full-stack portfolio website with React.js, Node.js/Express, and SQL, featuring a calendar-based 1-to-1 session booking system and a blog with user authentication, content creation, likes, and comments.</p>
+              <ul>
+                <li>Designed responsive layouts that adapt seamlessly to all device sizes.</li>
+                <li>Created secure user authentication and content management system.</li>
+                <li>Currently implementing an admin dashboard for analytics & insights, where only non-sensitive data is displayed.</li>
+                <li>Currently working on the feature to display the calendar availability, current sessions booked.</li>
+                <li>Deployed frontend on Netlify and backend on Render for optimal performance.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Details Modal -->
+      <div class="modal-project" id="project-modal">
+        <div class="modal-project-content">
+          <span class="close-modal">&times;</span>
+          <div class="modal-body"><!-- Content injected via JS --></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="section-header">
+        <h2 class="section-title">Skills</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <!-- Collapsible Legend Sidebar -->
+      <div class="skills-legend-toggle" onclick="toggleLegend()" title="Show/Hide Legend">
+        <i class="fas fa-info-circle"></i>
+      </div>
+      <div class="skills-legend-sidebar" id="skillsLegend">
+        <h3>Skill Legend</h3>
+        <div class="legend-section">
+          <h4>Proficiency Level</h4>
+          <div class="legend-item"><span style="font-size:1.2em;">🧠</span> Advanced</div>
+          <div class="legend-item"><span style="font-size:1.2em;">🛠️</span> Proficient</div>
+          <div class="legend-item"><span style="font-size:1.2em;">📘</span> Learning</div>
+        </div>
+        <div class="legend-section">
+          <h4>Confidence Level</h4>
+          <div class="legend-item"><span class="dot blue"></span> Confident</div>
+          <div class="legend-item"><span class="dot green"></span> Learning Well</div>
+          <div class="legend-item"><span class="dot yellow"></span> Just Starting</div>
+        </div>
+      </div>
+
+      <div class="skills-tabs">
+        <div class="tabs-header">
+          <button class="tab-btn active" data-tab="frontend">Frontend</button>
+          <button class="tab-btn" data-tab="backend">Backend</button>
+          <button class="tab-btn" data-tab="frameworks">Frameworks & Libraries</button>
+          <button class="tab-btn" data-tab="tools">Tools & Platforms</button>
+          <button class="tab-btn" data-tab="soft">Soft Skills</button>
+        </div>
+
+        <div class="tabs-content">
+          <!-- Frontend Tab -->
+          <div class="tab-panel active" id="frontend-tab">
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-top">
+                  <span style="font-size:1.2em;">🧠</span>
+                  <span class="dot blue"></span>
+                </div>
+                <h3>HTML5</h3>
+                <div class="skill-bottom"><i class="fab fa-html5"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top">
+                  <span style="font-size:1.2em;">🧠</span>
+                  <span class="dot blue"></span>
+                </div>
+                <h3>CSS3</h3>
+                <div class="skill-bottom"><i class="fab fa-css3-alt"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top">
+                  <span style="font-size:1.2em;">🛠️</span>
+                  <span class="dot blue"></span>
+                </div>
+                <h3>JavaScript</h3>
+                <div class="skill-bottom"><i class="fab fa-js"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top">
+                  <span style="font-size:1.2em;">📘</span>
+                  <span class="dot green"></span>
+                </div>
+                <h3>TypeScript</h3>
+                <div class="skill-bottom typescript-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%"><path fill="currentColor" d="M0 200V0h400v400H0"/><path fill="#ffffff" d="M87.7 200.7V217h52v148h36.9V217h52v-16c0-9 0-16.3-.4-16.5 0-.3-31.7-.4-70.2-.4l-70 .3v16.4l-.3-.1zM321.4 184c10.2 2.4 18 7 25 14.3 3.7 4 9.2 11 9.6 12.8 0 .6-17.3 12.3-27.8 18.8-.4.3-2-1.4-3.6-4-5.2-7.4-10.5-10.6-18.8-11.2-12-.8-20 5.5-20 16 0 3.2.6 5 1.8 7.6 2.7 5.5 7.7 8.8 23.2 15.6 28.6 12.3 41 20.4 48.5 32 8.5 13 10.4 33.4 4.7 48.7-6.4 16.7-22 28-44.3 31.7-7 1.2-23 1-30.5-.3-16-3-31.3-11-40.7-21.3-3.7-4-10.8-14.7-10.4-15.4l3.8-2.4 15-8.7 11.3-6.6 2.6 3.5c3.3 5.2 10.7 12.2 15 14.6 13 6.7 30.4 5.8 39-2 3.7-3.4 5.3-7 5.3-12 0-4.6-.7-6.7-3-10.2-3.2-4.4-9.6-8-27.6-16-20.7-8.8-29.5-14.4-37.7-23-4.7-5.2-9-13.3-11-20-1.5-5.8-2-20-.6-25.7 4.3-20 19.4-34 41-38 7-1.4 23.5-.8 30.4 1l-.2.2z"/></svg>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top">
+                  <span style="font-size:1.2em;">📘</span>
+                  <span class="dot green"></span>
+                </div>
+                <h3>React</h3>
+                <div class="skill-bottom"><i class="fab fa-react"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top">
+                  <span style="font-size:1.2em;">📘</span>
+                  <span class="dot green"></span>
+                </div>
+                <h3>Angular</h3>
+                <div class="skill-bottom"><i class="fab fa-angular"></i></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Tab -->
+          <div class="tab-panel" id="backend-tab">
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div>
+                <h3>Python</h3>
+                <div class="skill-bottom"><i class="fab fa-python"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div>
+                <h3>Java</h3>
+                <div class="skill-bottom"><i class="fab fa-java"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">📘</span><span class="dot blue"></span></div>
+                <h3>Node.js</h3>
+                <div class="skill-bottom"><i class="fab fa-node-js"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div>
+                <h3>PHP</h3>
+                <div class="skill-bottom"><i class="fab fa-php"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">📘</span><span class="dot blue"></span></div>
+                <h3>Express.js</h3>
+                <div class="skill-bottom"><i class="fab fa-node-js"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div>
+                <h3>SQL</h3>
+                <div class="skill-bottom"><i class="fas fa-database"></i></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frameworks & Libraries Tab -->
+          <div class="tab-panel" id="frameworks-tab">
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div>
+                <h3>Flask</h3>
+                <div class="skill-bottom"><i class="fab fa-python"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot green"></span></div>
+                <h3>Django</h3>
+                <div class="skill-bottom"><i class="fab fa-python"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot green"></span></div>
+                <h3>Pandas</h3>
+                <div class="skill-bottom"><i class="fab fa-python"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div>
+                <h3>Matplotlib</h3>
+                <div class="skill-bottom"><i class="fas fa-chart-bar"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div>
+                <h3>Seaborn</h3>
+                <div class="skill-bottom"><i class="fas fa-chart-area"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">📘</span><span class="dot yellow"></span></div>
+                <h3>Scikit-learn</h3>
+                <div class="skill-bottom"><i class="fas fa-brain"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot green"></span></div>
+                <h3>SQLAlchemy</h3>
+                <div class="skill-bottom"><i class="fas fa-database"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot yellow"></span></div>
+                <h3>Chart.js</h3>
+                <div class="skill-bottom"><i class="fas fa-chart-pie"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div>
+                <h3>Jinja2</h3>
+                <div class="skill-bottom"><i class="fas fa-code"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div>
+                <h3>JWT</h3>
+                <div class="skill-bottom"><i class="fas fa-lock"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div>
+                <h3>SQLite3</h3>
+                <div class="skill-bottom"><i class="fas fa-database"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div>
+                <h3>Pygame</h3>
+                <div class="skill-bottom"><i class="fas fa-gamepad"></i></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div>
+                <h3>Java Swing</h3>
+                <div class="skill-bottom"><i class="fab fa-java"></i></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Platforms Tab -->
+          <div class="tab-panel" id="tools-tab">
+            <div class="skills-grid">
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div><h3>Git</h3><div class="skill-bottom"><i class="fab fa-git-alt"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div><h3>PostgreSQL</h3><div class="skill-bottom"><i class="fas fa-database"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div><h3>Render</h3><div class="skill-bottom"><i class="fas fa-server"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div><h3>Netlify</h3><div class="skill-bottom"><i class="fas fa-cloud-upload-alt"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div><h3>Railway</h3><div class="skill-bottom"><i class="fas fa-train"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div><h3>Cloudflare</h3><div class="skill-bottom"><i class="fas fa-cloud"></i></div></div>
+            </div>
+          </div>
+
+          <!-- Soft Skills Tab -->
+          <div class="tab-panel" id="soft-tab">
+            <div class="skills-grid">
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div><h3>Problem Solving</h3><div class="skill-bottom"><i class="fas fa-puzzle-piece"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div><h3>Critical Thinking</h3><div class="skill-bottom"><i class="fas fa-brain"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div><h3>Time Management</h3><div class="skill-bottom"><i class="fas fa-clock"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot blue"></span></div><h3>Leadership</h3><div class="skill-bottom"><i class="fas fa-users"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div><h3>Teamwork</h3><div class="skill-bottom"><i class="fas fa-user-friends"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div><h3>Communication</h3><div class="skill-bottom"><i class="fas fa-comments"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🛠️</span><span class="dot green"></span></div><h3>Adaptability</h3><div class="skill-bottom"><i class="fas fa-sync-alt"></i></div></div>
+              <div class="skill-item"><div class="skill-top"><span style="font-size:1.2em;">🧠</span><span class="dot blue"></span></div><h3>Accountability</h3><div class="skill-bottom"><i class="fas fa-tasks"></i></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+      <div class="section-header">
+        <h2 class="section-title">Certifications</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="certifications-grid">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/about/work/data-certificate.png" alt="Data Analysis with Python" />
+            </div>
+            <div class="flip-card-back">
+              <h3>Data Analysis with Python</h3>
+              <p>Comprehensive course covering Python libraries for data analysis including NumPy, Pandas, Matplotlib, and Seaborn.</p>
+              <div class="card-details">
+                <span class="card-badge">Python</span>
+                <span class="card-badge">Data Science</span>
+                <span class="card-badge">Predictions and Machine Learning</span>
+                <span class="card-badge">August 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/about/work/web-certificate.png" alt="Introduction to Web Development" />
+            </div>
+            <div class="flip-card-back">
+              <h3>Web Development</h3>
+              <p>Course covering HTML, CSS, JavaScript, and modern web development practices including responsive design and accessibility.</p>
+              <div class="card-details">
+                <span class="card-badge">HTML/CSS</span>
+                <span class="card-badge">JavaScript</span>
+                <span class="card-badge">August 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/about/work/ai-certificate.png" alt="AI for Everyone" />
+            </div>
+            <div class="flip-card-back">
+              <h3>AI for Everyone</h3>
+              <p>Introduction to artificial intelligence concepts, machine learning fundamentals, and practical applications of AI in business.</p>
+              <div class="card-details">
+                <span class="card-badge">AI</span>
+                <span class="card-badge">Machine Learning</span>
+                <span class="card-badge">August 2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="interests-section">
+      <div class="section-header">
+        <h2 class="section-title">Interests</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="interests-grid">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"><img src="images/about/hobbies/chess.jpg" alt="Chess" /></div>
+            <div class="flip-card-back"><h3>Chess</h3><p>Chess was a casual pastime for me as a kid, but as I grew older, I developed an admiration for its strategy and became really good at it.</p><div class="card-details"><span class="card-badge">1800 rating</span><span class="card-badge">Critical thinking</span><span class="card-badge">Strategy</span></div></div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"><img src="images/about/hobbies/swimming.jpg" alt="Swimming" /></div>
+            <div class="flip-card-back"><h3>Swimming</h3><p>Competed at national level 4 times, starting at age five. Went to nationals in 2012, 2013, 2014, 2017.</p><div class="card-details"><span class="card-badge">National competitor</span><span class="card-badge">Discipline</span><span class="card-badge">Leadership</span></div></div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"><img src="images/about/hobbies/piano.jpg" alt="Piano" /></div>
+            <div class="flip-card-back"><h3>Piano</h3><p>With over a decade of practice, I achieved a distinction in my grade 8 ABRSM piano performance exam.</p><div class="card-details"><span class="card-badge">ABRSM Grade 8</span><span class="card-badge">Concentration</span><span class="card-badge">Discipline</span></div></div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"><img src="images/about/hobbies/football.jpg" alt="Football" /></div>
+            <div class="flip-card-back"><h3>Football</h3><p>Swimming is where I really excelled in sports, but football was always my true passion.</p><div class="card-details"><span class="card-badge">Teamwork</span><span class="card-badge">Communication</span><span class="card-badge">Leadership</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="section-header">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-underline"></div>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <div class="form-field">
+                <input type="text" id="contact-name" name="name" required placeholder=" " />
+                <label for="contact-name">Name</label>
+                <div class="form-field-bar"></div>
+                <br /><br />
+                <span class="validation-message" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field">
+                <input type="email" id="contact-email" name="email" required placeholder=" " />
+                <label for="contact-email">Email</label>
+                <div class="form-field-bar"></div>
+                <span class="validation-message" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-field">
+                <input type="text" id="contact-subject" name="subject" required placeholder=" " />
+                <label for="contact-subject">Subject</label>
+                <div class="form-field-bar"></div>
+                <span class="validation-message" aria-live="polite"></span>
+              </div>
+
+              <div class="form-field">
+                <input type="text" id="contact-phone" name="phone" required placeholder=" " />
+                <label for="contact-phone">Phone</label>
+                <div class="form-field-bar"></div>
+                <span class="validation-message" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-field">
+                <input type="text" id="contact-message" name="message" required placeholder=" " />
+                <label for="contact-message">Message</label>
+                <div class="form-field-bar"></div>
+                <span class="validation-message" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div id="contactFormStatus" class="form-status-message hidden"></div>
+
+            <button type="submit" class="btn btn-primary submit-btn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-socials">
+        <a href="https://x.com/mo_arouni" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/mohamad_arouni/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/mohamad-arouni-578168293/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/MoArouni" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="footer-info">
+        <p>Phone: +44 7484239767</p>
+        <p>Email: mohamadarouni5@gmail.com</p>
+        <p>Location: Greater London, UK</p>
+        <p>&copy; <span id="current-year"></span> Mohamad Arouni. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vendor and app scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="js/particles-config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/toggle_darkmode.js"></script>
+
+  
+
+  
+  <script>
+    // Make sure particles.js is properly initialized
+    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof particlesJS !== 'undefined') {
+            console.log('Particles.js loaded successfully');
+        } else {
+            console.error('Particles.js not loaded');
+        }
+    });
+
+    // Simple one-time progress bar animation
+    document.addEventListener('DOMContentLoaded', function() {
+        const skillItems = document.querySelectorAll('.skill-item');
+        let hasAnimated = false; // Track animation state
+        
+        // Function to animate the skill bars
+        function animateSkillBars() {
+            if (hasAnimated) return; // Skip if already animated
+            
+            const skillsSection = document.getElementById('skills');
+            if (!skillsSection) return;
+            
+            const rect = skillsSection.getBoundingClientRect();
+            const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+            
+            if (isVisible) {
+                hasAnimated = true; // Set animation state
+        
+                // Animate each skill bar
+                skillItems.forEach((item, index) => {
+                    setTimeout(() => {
+                        const progressBar = item.querySelector('.skill-progress');
+                        if (!progressBar) return; // Skip if no progress bar found
+                        
+                        const percentEl = item.querySelector('.skill-percentage');
+                        const targetWidth = progressBar.getAttribute('data-width') || '0%';
+                        
+                        // Add animation class
+                        progressBar.classList.add('animate-progress');
+                        progressBar.style.width = targetWidth;
+                        
+                        // Show percentage if element exists
+                        if (percentEl) {
+                            percentEl.style.opacity = "1";
+                        }
+                    }, index * 25);
+                });
+            }
+        }
+        
+        // Check on scroll
+        window.addEventListener('scroll', animateSkillBars);
+
+        // Check immediately in case skills section is already visible
+        animateSkillBars();
+    });
+
+    // Toggle function for the skills legend sidebar
+    function toggleLegend() {
+        const legend = document.getElementById('skillsLegend');
+        legend.classList.toggle('active');
+    }
+
+    // Contact form validation and submission
+    document.addEventListener('DOMContentLoaded', function() {
+        const contactForm = document.getElementById('contactForm');
+        const nameInput = document.getElementById('contact-name');
+        const emailInput = document.getElementById('contact-email');
+        const subjectInput = document.getElementById('contact-subject');
+        const phoneInput = document.getElementById('contact-phone');
+        const messageInput = document.getElementById('contact-message');
+        const formStatus = document.getElementById('contactFormStatus');
+        
+        if (!contactForm) return;
+        
+        // Show validation error
+        function showError(input, message) {
+            const field = input.closest('.form-field');
+            field.classList.add('error');
+            field.classList.remove('success');
+            const validationMessage = field.querySelector('.validation-message');
+            validationMessage.textContent = message;
+            validationMessage.style.display = 'block';
+        }
+        
+        // Show validation success
+        function showSuccess(input) {
+            const field = input.closest('.form-field');
+            field.classList.remove('error');
+            field.classList.add('success');
+            const validationMessage = field.querySelector('.validation-message');
+            validationMessage.textContent = '';
+            validationMessage.style.display = 'none';
+        }
+        
+        // Clear all validation states
+        function clearValidation() {
+            const fields = document.querySelectorAll('.form-field');
+            fields.forEach(field => {
+                field.classList.remove('error', 'success');
+                const validationMessage = field.querySelector('.validation-message');
+                if (validationMessage) {
+                    validationMessage.textContent = '';
+                    validationMessage.style.display = 'none';
+                }
+            });
+            formStatus.classList.add('hidden');
+        }
+        
+        // Validate email format
+        function isValidEmail(email) {
+            const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        }
+        
+        // Validate phone number format
+        function isValidPhone(phone) {
+            const re = /^[\d\s\-\+\(\)]{7,20}$/;
+            return re.test(phone);
+        }
+        
+        // Form submission handling
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            clearValidation();
+            
+            let isValid = true;
+            
+            // Name validation
+            if (nameInput.value.trim() === '') {
+                showError(nameInput, 'Name is required');
+                isValid = false;
+            } else if (nameInput.value.trim().length < 2) {
+                showError(nameInput, 'Name must be at least 2 characters');
+                isValid = false;
+            } else {
+                showSuccess(nameInput);
+            }
+            
+            // Email validation
+            if (emailInput.value.trim() === '') {
+                showError(emailInput, 'Email is required');
+                isValid = false;
+            } else if (!isValidEmail(emailInput.value.trim())) {
+                showError(emailInput, 'Please enter a valid email address');
+                isValid = false;
+            } else {
+                showSuccess(emailInput);
+            }
+            
+            // Subject validation
+            if (subjectInput.value.trim() === '') {
+                showError(subjectInput, 'Subject is required');
+                isValid = false;
+            } else if (subjectInput.value.trim().length < 3) {
+                showError(subjectInput, 'Subject must be at least 3 characters');
+                isValid = false;
+            } else {
+                showSuccess(subjectInput);
+            }
+            
+            // Phone validation
+            if (phoneInput.value.trim() === '') {
+                showError(phoneInput, 'Phone number is required');
+                isValid = false;
+            } else if (!isValidPhone(phoneInput.value.trim())) {
+                showError(phoneInput, 'Please enter a valid phone number');
+                isValid = false;
+            } else {
+                showSuccess(phoneInput);
+            }
+            
+            // Message validation
+            if (messageInput.value.trim() === '') {
+                showError(messageInput, 'Message is required');
+                isValid = false;
+            } else if (messageInput.value.trim().length < 10) {
+                showError(messageInput, 'Message must be at least 10 characters');
+                isValid = false;
+            } else {
+                showSuccess(messageInput);
+            }
+            
+            if (isValid) {
+                // Send the form data to a server-side route instead
+                const formData = new FormData(contactForm);
+                
+                // Fall back to Formspree as a secure way to handle form submissions
+                // In a real app, you'd have your own API endpoint to handle this
+                fetch('https://formspree.io/f/mldgykon', {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        // Show success message
+                        formStatus.textContent = 'Your message has been sent successfully! I will contact you soon.';
+                        formStatus.className = 'form-status-message success';
+                        formStatus.classList.remove('hidden');
+                        
+                        // Reset the form
+                        contactForm.reset();
+                        
+                        // Remove success styling after a few seconds
+                        setTimeout(() => {
+                            clearValidation();
+                        }, 5000);
+                    } else {
+                        // Show error message
+                        formStatus.textContent = 'There was a problem sending your message. Please try again.';
+                        formStatus.className = 'form-status-message error';
+                        formStatus.classList.remove('hidden');
+                    }
+                })
+                .catch(error => {
+                    formStatus.textContent = 'There was a problem sending your message. Please try again.';
+                    formStatus.className = 'form-status-message error';
+                    formStatus.classList.remove('hidden');
+                });
+            }
+        });
+        
+        // Real-time validation for input fields
+        const inputs = [nameInput, emailInput, subjectInput, phoneInput, messageInput];
+        
+        inputs.forEach(input => {
+            // Validate on blur (when user leaves the field)
+            input.addEventListener('blur', function() {
+                // Skip validation if the field is empty and user hasn't interacted yet
+                if (this.value.trim() === '' && !this.classList.contains('interacted')) {
+                    return;
+                }
+                
+                this.classList.add('interacted');
+                
+                switch(this.id) {
+                    case 'contact-name':
+                        if (this.value.trim() === '') {
+                            showError(this, 'Name is required');
+                        } else if (this.value.trim().length < 2) {
+                            showError(this, 'Name must be at least 2 characters');
+                        } else {
+                            showSuccess(this);
+                        }
+                        break;
+                        
+                    case 'contact-email':
+                        if (this.value.trim() === '') {
+                            showError(this, 'Email is required');
+                        } else if (!isValidEmail(this.value.trim())) {
+                            showError(this, 'Please enter a valid email address');
+                        } else {
+                            showSuccess(this);
+                        }
+                        break;
+                        
+                    case 'contact-subject':
+                        if (this.value.trim() === '') {
+                            showError(this, 'Subject is required');
+                        } else if (this.value.trim().length < 3) {
+                            showError(this, 'Subject must be at least 3 characters');
+                        } else {
+                            showSuccess(this);
+                        }
+                        break;
+                        
+                    case 'contact-phone':
+                        if (this.value.trim() === '') {
+                            showError(this, 'Phone number is required');
+                        } else if (!isValidPhone(this.value.trim())) {
+                            showError(this, 'Please enter a valid phone number');
+                        } else {
+                            showSuccess(this);
+                        }
+                        break;
+                        
+                    case 'contact-message':
+                        if (this.value.trim() === '') {
+                            showError(this, 'Message is required');
+                        } else if (this.value.trim().length < 10) {
+                            showError(this, 'Message must be at least 10 characters');
+                        } else {
+                            showSuccess(this);
+                        }
+                        break;
+                }
+            });
+            
+            // Clear error on input
+            input.addEventListener('input', function() {
+                const field = this.closest('.form-field');
+                field.classList.remove('error');
+                const validationMessage = field.querySelector('.validation-message');
+                validationMessage.textContent = '';
+                validationMessage.style.display = 'none';
+            });
+        });
+    });
+  </script>
+</body>
+</html>
+
+
