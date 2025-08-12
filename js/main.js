@@ -15,8 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize certification slider
     initCertificationSlider();
 
-    // Initialize timeline toggle
-    initTimelineToggle();
+    // Initialize timeline toggle (handled by initTimelineToggles below)
 
     // Initialize mobile menu
     initMobileMenu();
@@ -241,17 +240,9 @@ function initTimelineToggle() {
     
     toggleBtns.forEach(btn => {
         btn.addEventListener('click', function() {
-            const description = this.previousElementSibling;
-            
-            // Toggle the description
-            description.classList.toggle('active');
-            
-            // Update the button text
-            if (description.classList.contains('active')) {
-                this.textContent = 'Read Less';
-            } else {
-                this.textContent = 'Read More';
-            }
+            const timelineContent = this.closest('.timeline-content');
+            const isExpanded = timelineContent.classList.toggle('expanded');
+            this.textContent = isExpanded ? 'Read Less' : 'Read More';
         });
     });
 }
@@ -594,13 +585,8 @@ function initTimelineToggles() {
     toggleBtns.forEach(btn => {
         btn.addEventListener('click', function() {
             const timelineContent = this.closest('.timeline-content');
-            const description = timelineContent.querySelector('.timeline-description');
-            
-            // Toggle the active class
-            description.classList.toggle('active');
-            
-            // Update button text
-            this.textContent = description.classList.contains('active') ? 'Read Less' : 'Read More';
+            const isExpanded = timelineContent.classList.toggle('expanded');
+            this.textContent = isExpanded ? 'Read Less' : 'Read More';
         });
     });
 }
